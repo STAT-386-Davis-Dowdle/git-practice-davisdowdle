@@ -1,0 +1,139 @@
+   26  git --version
+   27  git config --global user.name "Davis Dowdle"
+   28  git config --global user.email "davis.dowdle@gmail.com"
+   29  git config --global core.editor "code --wait"
+   30  git config --global init.defaultBranch main
+   47  git init
+   48  git add .
+   49  git log
+   50  git status
+   51  git commit -m "random"
+   52  git log
+   53  git push 
+   66  git clone git@github.com:davisdowdle/KaggleBikeShare.git
+   71  git status
+   74  git add .
+   75  git status
+   76  git commit -m "first commit (in class assignment)"
+   77  git log
+   78  git push git@github.com:davisdowdle/KaggleBikeShare.git
+   86  git add .
+   87  git commit -m "Fill EDA R script and attach panels"
+   88  git push git@github.com:davisdowdle/KaggleBikeShare.git
+   92  git branch
+   93  git log
+   94  git checkout 695ddf00d15967581db8ac4499b4f16606a7031f
+   96  git checkout main
+   97  git remote
+   99  git remote add origin git@github.com:davisdowdle/git_practice_davis.git
+  100  git remote
+  101  git remote -v
+  102  git push -u origin main
+  104  rm .git/
+  105  rm -R .git/
+  128  git add .
+  129  git status
+  130  git commit -m "Create BikeShareAnalysis.R file for cleaning and engineering practice"
+  131  git remote add origin git@github.com:STAT-348-Davis-Dowdle/KaggleBikeShare.git
+  132  git push 
+  145  mkdir git_practice
+  146  cd git_practice/
+  148  git init
+  150  git status
+  153  git status
+  154  git add .
+  155  git status
+  156  git commit -m "create new files"
+  157  git status
+  158  git log
+  163  git status
+  164  git add file_1.txt
+  165  git status
+  166  git commit -m "update and commit first file"
+  167  git status
+  168  git add file_2.txt 
+  169  git commit -m "update and commit second file"
+  170  git log
+  173  git add Readme.md 
+  174  git commit -m "create and fill Readme.md file"
+  175  git log
+  176  nano .gitignore
+  177  git add .gitignore 
+  178  git commit -m "create and fill .gitignore"
+  180  git status
+  182  git status
+  183  git log
+  184  git branch
+  185  git branch features
+  186  git branch
+  187  git switch features 
+  188  git log
+  190  git add new_features.txt 
+  191  git commit -m "add empty file"
+  193  git add .
+  194  git status
+  195  git commit -m "update new_features.txt"
+  197  git switch main
+  200  git add .
+  201  git commit -m "change file_1.txt"
+  202  git merge features 
+  203  git log
+  206  git add .
+  207  git commit -m "change new_features.txt in main branch"
+  208  git status
+  210  git switch features 
+  213  git add .
+  214  git commit -m "change new_features.txt in features branch"
+  215  git switch main
+  216  git merge features 
+  218  git add .
+  219  git commit -m "fix new_features.txt for merge"
+  220  git status
+  221  git merge features 
+  222  git branch -d features 
+  223  git branch
+  224  git remote add origin git@github.com:STAT-386-Davis-Dowdle/git-practice-davisdowdle.git
+  225  git push -u origin main
+  230  git clone git@github.com:STAT-386-Davis-Dowdle/git-practice-gmspringer32.git
+  231  git branch
+  233  cd git-practice-gmspringer32/
+  234  git branch feature-davisdowdle
+  235  git branch
+  236  git switch feature-davisdowdle 
+  239  git add .
+  240  git status
+  241  git commit -m "smash smouth"
+  242  git push origin feature-davisdowdle
+  243  rm .git
+  246  rm -R .git
+  250  rm -R git-practice-gmspringer32/
+  259  git add .
+  260  git commit -m "Add tidymodels linear regression to Rscript"
+  261  git push
+  265  git add .
+  266  git status
+  267  git commit -m "Ammend script for poisson regression and add submission csv"
+  268  git push
+  269  git add .
+  270  git status
+  271  git commit -m "Actually amend script"
+  272  git push
+  277  git branch
+  280  git switch
+  281  git branch
+  283  git clone git@github.com:davisdowdle/git-practice-kadenf17.git
+  285  cd git-practice-kadenf17/
+  286  git branch feature-davisdowdle
+  287  git switch feature-davisdowdle 
+  289  git add .
+  290  git commit -m "add hello file"
+  291  git push origin feature-davisdowdle 
+  292  git ../'stat 386'
+  294  git pull
+  295  git pull git@github.com:STAT-386-Davis-Dowdle/git-practice-davisdowdle.git
+  299  cd git_practice/
+  301  git pull
+  302  git merge --abort
+  303  git pull
+  305  git log --oneline > gitlog.txt
+  308  history | grep git > history.txt

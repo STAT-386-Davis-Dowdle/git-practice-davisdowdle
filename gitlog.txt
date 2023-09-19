@@ -1,0 +1,14 @@
+984f090 Merge pull request #1 from kadenf17/feature-kadenf17
+2baf28a kadenf17 changes - add file_3.txt
+e04777c fix new_features.txt for merge
+763e555 change new_features.txt in features branch
+9ac3504 change new_features.txt in main branch
+f7b190f Merge branch 'features' "first merge"
+3b20a63 change file_1.txt
+af27561 update new_features.txt
+2332496 add empty file
+2254abd create and fill .gitignore
+2717b96 create and fill Readme.md file
+3050df0 update and commit second file
+e56d67c update and commit first file
+5c96a01 create new files
